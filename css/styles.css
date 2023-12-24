@@ -15,7 +15,7 @@ font-family: Raleway, sans-serif;
 font-size: 18px;
 font-weight: 700;
 line-height: 1.17;
-letter-spacing: 0.02em;
+letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 .logo-part {
@@ -26,7 +26,7 @@ text-transform: uppercase;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5; 
-letter-spacing: 0.2em;
+letter-spacing: 0.02em;
 }
 .nav-link:hover,
 .nav-link:focus{
@@ -45,4 +45,52 @@ letter-spacing: 0.02em;
 .address-link:hover,
 .address-link:focus {
     color: #404bbf;
+}
+.section {
+    Effective Solutions for Your Business
+
+}
+.section {
+    Our advantages
+}
+
+.section {
+    Our Team
+
+}
+
+.section {
+    Our Portfolio
+}
+.logo {
+color:  #2e2f42;
+ font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
+
+
+
+.footer {
+    background-color: #2e2f42;
+}
+.logo{
+    color: #4d5ae5;
+font-family: Raleway, sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.logo-part {
+    color: #f4f4fd;
+}
+.p {
+line-heigt: 1.5;
+letter-spacing: 0,02em
+}
+.span {
+   color: #f4f4fd; 
 }
