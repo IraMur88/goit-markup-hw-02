@@ -1,9 +1,9 @@
 .body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: #fff;
+  background-color: #ffffff;
 }
-a {
+.a {
 text-decoration: none;
 }
 ul, ol {
@@ -46,31 +46,43 @@ letter-spacing: 0.02em;
 .address-link:focus {
     color: #404bbf;
 }
-.section Effective Solutions for Your Business {
+.h1 Effective Solutions for Your Business {
     color: #ffffff;
     background-color: #2e2f42;
     font-size: 56px;
     line-height: 1.07;
-    text-align:center
     letter-spacing: 0.02em;
-
+    text-align: center;
 }
 .buttom {
+    font-family: "Roboto", sans-serif;
     color: #ffffff;
     background-color: #4d5ae5;
+    font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-
+    cursor: pointer;
 }
-.section Our advantages {
+.buttom:hover {
+    background-color: #404bbf;
+}
+.buttom:focus {
+    border: #404bbf;
+}
+.h2 Our advantages {
     color: #2E2F42;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;    
 }
+.p {
+    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 
-.section Our Team {
+.h2 Our Team {
     color: #2e2f42;
     background-color: #f4f4fd;
     font-size: 36px;
@@ -79,7 +91,7 @@ letter-spacing: 0.02em;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
-.p{
+.ul Tom Ford {
     color: #2E2F42;
     background-color: #ffffff;
     font-weight: 500;
@@ -87,9 +99,22 @@ letter-spacing: 0.02em;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
+.p {
+    color: #434455;
+    background-color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 
-.section Our Portfolio {
-    
+.h2 Our Portfolio {
+    color: #2E2F42;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;    
 }
 .logo {
 color:  #2e2f42;
@@ -99,14 +124,12 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 }
 
-
-
-.footer {
+.footer Web {
     background-color: #2e2f42;
 }
-.logo{
+.footer-logo {
     color: #4d5ae5;
-font-family: Raleway, sans-serif;
+font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-weight: 700;
 line-height: 1.17;
@@ -117,9 +140,7 @@ text-transform: uppercase;
     color: #f4f4fd;
 }
 .p {
+    color: #f4f4fd;
     line-height: 1.5;
     letter-spacing: 0,02em;
-}
-.span {
-   color: #f4f4fd; 
 }
