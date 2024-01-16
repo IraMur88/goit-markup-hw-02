@@ -1,13 +1,21 @@
-.body {
+body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
-.a {
-text-decoration: none;
-}
-ul, ol {
+
+/* ========header======== */
+ul {
 list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.header {
+    font-family: "Raleway" sans-serif;
+    font-style: normal;
+    border-bottom: 1px solid #e7e9fc;
+    background: #fff;
 }
 .logo {
     color: #4d5ae5;
@@ -21,15 +29,12 @@ text-transform: uppercase;
 .logo-part {
     color: #2e2f42;
 }
-.nav-link {
-    color: #2E2F42;
-font-size: 16px;
-font-weight: 500;
-line-height: 1.5; 
-letter-spacing: 0.02em;
+.navigate{
+  border-bottom: #e7e9fc;
+  background: #fff;
 }
 .nav-link:hover,
-.nav-link:focus{
+.nav-link:focus {
     color: #404bbf;
 }
 .address {
@@ -46,7 +51,24 @@ letter-spacing: 0.02em;
 .address-link:focus {
     color: #404bbf;
 }
-.h1 Effective Solutions for Your Business {
+/* ========header======== */
+
+/* ========main========== */
+.main {
+
+}
+.first-section {
+    color: var(--NAVY-BLUE, #2E2F42);
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0.72px;
+text-transform: capitalize;
+}
+.page-title {
     color: #ffffff;
     background-color: #2e2f42;
     font-size: 56px;
@@ -69,6 +91,26 @@ letter-spacing: 0.02em;
 .buttom:focus {
     border: #404bbf;
 }
+.second-section {
+    color: var(--NAVY-BLUE, #2E2F42);
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; 
+letter-spacing: 0.72px;
+text-transform: capitalize;
+}
+.p {
+    color: var(--SLATE, #434455);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.32px;
+}
 .h2 Our advantages {
     color: #2E2F42;
     font-weight: 500;
@@ -81,7 +123,10 @@ letter-spacing: 0.02em;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.third section {
+    background-color: #f4f4fd;
 
+}
 .h2 Our Team {
     color: #2e2f42;
     background-color: #f4f4fd;
@@ -107,9 +152,11 @@ letter-spacing: 0.02em;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.fourth-section {
 
-.h2 Our Portfolio {
-    color: #2E2F42;
+}
+.portfolio-text {
+    color: #2e2f42;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -123,11 +170,14 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 }
+/* ========main========== */
 
-.footer Web {
+/* ========footer======== */
+.footer {
+    color: #f4f4fd;
     background-color: #2e2f42;
 }
-.footer-logo {
+.logo-sec {
     color: #4d5ae5;
 font-family: "Raleway", sans-serif;
 font-size: 18px;
@@ -139,8 +189,9 @@ text-transform: uppercase;
 .logo-part {
     color: #f4f4fd;
 }
-.p {
+.footer-chpt {
     color: #f4f4fd;
     line-height: 1.5;
     letter-spacing: 0,02em;
 }
+/* ========footer======== */
