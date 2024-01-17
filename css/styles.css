@@ -23,7 +23,7 @@ font-family: Raleway, sans-serif;
 font-size: 18px;
 font-weight: 700;
 line-height: 1.17;
-letter-spacing: 0.03em;
+letter-spacing: 1px;
 text-transform: uppercase;
 }
 .logo-part {
@@ -101,6 +101,7 @@ line-height: 40px;
 letter-spacing: 0.72px;
 text-transform: capitalize;
 }
+
 .p {
     color: var(--SLATE, #434455);
 font-family: Roboto;
@@ -116,6 +117,18 @@ letter-spacing: 0.32px;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;    
+}
+.strategy-name-text {
+    text-align: left;
+}
+.punctuality-name-text {
+    text-align: right;
+}
+.diligence-name-text {
+    text-align: center;
+}
+.technologies-name-text {
+    text-align: justify;
 }
 .p {
     color: #434455;
