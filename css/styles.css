@@ -50,6 +50,9 @@ text-transform: uppercase;
 align-items: flex-start;
 gap: 40px;
 }
+.header-address {
+   font-style: normal;  
+}
 .header-address-list {
     color: #434455;
     font-style: normal;
@@ -70,23 +73,19 @@ letter-spacing: 0.02em;
 /* ========main========== */
 
 .first-section {
-    color:  #ffffff;
+background: var(--NAVY-BLUE, #2E2F42);
+}
+.first-section-title {
+    color: var(--WHITE, #FFF);
 text-align: center;
+font-family: Roboto;
 font-size: 56px;
+font-style: normal;
 font-weight: 700;
-line-height: 1.07px;
-letter-spacing: 0.02em;
-text-transform: capitalize;
+line-height: 60px; 
+letter-spacing: 1.12px;
 }
-.page-title {
-    color: #ffffff;
-    background-color: #2e2f42;
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    text-align: center;
-}
-.first-buttom {
+.first-button {
     font-family: "Roboto", sans-serif;
     color: #ffffff;
     font-weight: 500;
@@ -96,20 +95,36 @@ text-transform: capitalize;
     cursor: pointer;
     background: #4d5ae5;
 }
-.buttom:hover {
+.button:hover {
     background-color: #404bbf;
 }
-.buttom:focus {
+.button:focus {
     border: #404bbf;
 }
-.second-section {
-    color: var(--NAVY-BLUE, #2E2F42);
+
+.second-section-title {
+color: var(--NAVY-BLUE, #2E2F42);
 text-align: center;
 font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0.72px;
 text-transform: capitalize;
 }
+.second-section-name {
+color: var(--NAVY-BLUE, #2E2F42);
+text-align: center;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.4px;
+}
 
-.p {
+.text {
     color: var(--SLATE, #434455);
 font-family: Roboto;
 font-size: 16px;
@@ -118,25 +133,7 @@ font-weight: 400;
 line-height: 24px;
 letter-spacing: 0.32px;
 }
-.h2 Our advantages {
-    color: #2E2F42;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;    
-}
-.strategy-name-text {
-    text-align: left;
-}
-.punctuality-name-text {
-    text-align: right;
-}
-.diligence-name-text {
-    text-align: center;
-}
-.technologies-name-text {
-    text-align: justify;
-}
+
 .p {
     color: #434455;
     line-height: 1.5;
@@ -202,7 +199,7 @@ text-transform: capitalize;
 /* ========main========== */
 
 /* ========footer======== */
-.footer {
+.footer-section {
     color: #f4f4fd;
     background-color: #2e2f42;
 }
@@ -215,12 +212,25 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
-.logo-part {
-    color: #f4f4fd;
+.logo-part-studio {
+    color: var(--CLOUD, #F4F4FD);
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 21px;
+letter-spacing: 0.54px;
+text-transform: uppercase;
 }
-.footer-chpt {
+.footer-text {
     color: #f4f4fd;
     line-height: 1.5;
     letter-spacing: 0,02em;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.32px;
 }
 /* ========footer======== */
