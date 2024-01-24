@@ -82,7 +82,7 @@ font-family: Roboto;
 font-size: 56px;
 font-style: normal;
 font-weight: 700;
-line-height: 60px; 
+line-height: 1.07; 
 letter-spacing: 1.12px;
 }
 .first-button {
@@ -139,29 +139,43 @@ letter-spacing: 0.32px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.third section {
+.third-section {
     background-color: #f4f4fd;
 
 }
-.h2 Our Team {
-    color: #2e2f42;
-    background-color: #f4f4fd;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
+.our-team-title {
+    color: var(--NAVY-BLUE, #2E2F42);
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; 
+letter-spacing: 0.72px;
+text-transform: capitalize;
 }
-.li-mark-white {
-background-color: #fff;
+.team-card {
+
 }
-.ul Tom Ford {
-    color: #2E2F42;
-    background-color: #ffffff;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
+.team-name {
+    color: var(--NAVY-BLUE, #2E2F42);
+text-align: center;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.4px;
+}
+.team-prof {
+    color: var(--SLATE, #434455);
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.32px;
 }
 .p {
     color: #434455;
@@ -172,23 +186,39 @@ background-color: #fff;
     letter-spacing: 0.02em;
 }
 .fourth-section {
-
+background: #FFF;
+border: #e7e9fc;
 }
-.portfolio-text {
-    color: #2e2f42;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;    
+.our-portfolio-text {
+color: var(--NAVY-BLUE, #2E2F42);
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; 
+letter-spacing: 0.72px;
+text-transform: capitalize;
 }
 .portfolio-name {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02;
-    color: #2e2f42;
+    color: var(--NAVY-BLUE, #2E2F42);
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.4px;
 }
+.portfolio-text {
+    color: var(--SLATE, #434455);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.32px;
+}
+
 .logo {
 color:  #2e2f42;
  font-size: 36px;
