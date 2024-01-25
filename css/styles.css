@@ -104,13 +104,10 @@ letter-spacing: 1.12px;
     cursor: pointer;
     background: #4d5ae5;
 }
-.first-button:hover {
+.first-button:hover,
+.first-button:focus  {
     background-color: #404bbf;
 }
-.first-button:focus {
-    border: #404bbf;
-}
-
 .second-section-title {
 color: var(--NAVY-BLUE, #2E2F42);
 text-align: center;
