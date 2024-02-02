@@ -49,7 +49,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: 24px; 
-letter-spacing: 0.32px;
+letter-spacing: 0.02em;
 }
 .header-menu-item{
  color: #2E2F42;
@@ -92,7 +92,7 @@ font-size: 56px;
 font-style: normal;
 font-weight: 700;
 line-height: 1.07; 
-letter-spacing: 1.12px;
+letter-spacing: 0.07em;
 }
 .first-button {
     font-family: "Roboto", sans-serif;
@@ -116,7 +116,7 @@ font-size: 36px;
 font-style: normal;
 font-weight: 700;
 line-height: 40px;
-letter-spacing: 0.72px;
+letter-spacing: 0.045em;
 text-transform: capitalize;
 }
 .second-section-name {
@@ -127,7 +127,7 @@ font-size: 20px;
 font-style: normal;
 font-weight: 500;
 line-height: 24px;
-letter-spacing: 0.4px;
+letter-spacing: 0.025em;
 }
 
 .text {
@@ -137,7 +137,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 24px;
-letter-spacing: 0.32px;
+letter-spacing: 0.02em;
 }
 
 .p {
@@ -157,7 +157,7 @@ font-size: 36px;
 font-style: normal;
 font-weight: 700;
 line-height: 1.11; 
-letter-spacing: 0.72px;
+letter-spacing: 0.045em;
 text-transform: capitalize;
 }
 .team-card {
@@ -171,7 +171,7 @@ font-size: 20px;
 font-style: normal;
 font-weight: 500;
 line-height: 24px;
-letter-spacing: 0.4px;
+letter-spacing: 0.025em;
 }
 .team-prof {
     color: var(--SLATE, #434455);
@@ -181,7 +181,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 24px;
-letter-spacing: 0.32px;
+letter-spacing: 0.02em;
 }
 .p {
     color: #434455;
@@ -203,7 +203,7 @@ font-size: 36px;
 font-style: normal;
 font-weight: 700;
 line-height: 1.11; 
-letter-spacing: 0.72px;
+letter-spacing: 0.045em;
 text-transform: capitalize;
 }
 .portfolio-name {
@@ -213,7 +213,7 @@ font-size: 20px;
 font-style: normal;
 font-weight: 500;
 line-height: 24px;
-letter-spacing: 0.4px;
+letter-spacing: 0.025em;
 }
 .portfolio-text {
     color: var(--SLATE, #434455);
@@ -222,7 +222,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 24px;
-letter-spacing: 0.32px;
+letter-spacing: 0.02em;
 }
 
 .logo {
@@ -255,7 +255,7 @@ font-size: 18px;
 font-style: normal;
 font-weight: 700;
 line-height: 21px;
-letter-spacing: 0.54px;
+letter-spacing: 0.034em;
 text-transform: uppercase;
 }
 .footer-text {
@@ -267,6 +267,6 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 24px;
-letter-spacing: 0.32px;
+letter-spacing: 0.02em;
 }
 /* ========footer======== */
