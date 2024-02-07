@@ -92,7 +92,7 @@ font-size: 56px;
 font-style: normal;
 font-weight: 700;
 line-height: 1.07; 
-letter-spacing: 0.07em;
+letter-spacing: 0.02em;
 }
 .first-button {
     font-family: "Roboto", sans-serif;
@@ -116,7 +116,7 @@ font-size: 36px;
 font-style: normal;
 font-weight: 700;
 line-height: 40px;
-letter-spacing: 0.045em;
+letter-spacing: 0.02em;
 text-transform: capitalize;
 }
 .second-section-name {
@@ -157,7 +157,7 @@ font-size: 36px;
 font-style: normal;
 font-weight: 700;
 line-height: 1.11; 
-letter-spacing: 0.045em;
+letter-spacing: 0.02em;
 text-transform: capitalize;
 }
 .team-card {
@@ -171,7 +171,7 @@ font-size: 20px;
 font-style: normal;
 font-weight: 500;
 line-height: 24px;
-letter-spacing: 0.025em;
+letter-spacing: 0.02em;
 }
 .team-prof {
     color: var(--SLATE, #434455);
@@ -203,7 +203,7 @@ font-size: 36px;
 font-style: normal;
 font-weight: 700;
 line-height: 1.11; 
-letter-spacing: 0.045em;
+letter-spacing: 0.02em;
 text-transform: capitalize;
 }
 .portfolio-name {
