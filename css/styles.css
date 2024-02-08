@@ -13,7 +13,6 @@ a {
 }
 header {
     font-style: normal;
-    border-bottom: 1px solid #e7e9fc;
     background: #fff;
 }
 .header-logo-web {  
@@ -35,7 +34,6 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 .navigate{
-  border-bottom: #e7e9fc;
   background: #fff;
 }
 .nav-link:hover,
@@ -54,11 +52,7 @@ letter-spacing: 0.02em;
 .header-menu-item{
  color: #2E2F42;
 }
-.header-item {
-    display: inline-flex;
-align-items: flex-start;
-gap: 40px;
-}
+
 .header-address {
    font-style: normal;  
 }
